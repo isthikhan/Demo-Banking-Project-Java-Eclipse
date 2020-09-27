@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Banking login">
+	<test name="Login">
+		<classes>
+			<class name="testCases.ViewChecking" />
+		</classes>
+	</test>
+<!--	<test name="Creation of InterestChecking">
+		<classes>
+			<class name="testCases.InterestChecking" /> 
+		</classes>
+	</test>
+	<test name="Creation of StandaradChecking">
+		<classes>
+			<class name="testCases.StandaradChecking" />
+		</classes>
+	</test>
+	<test name="ViewChecking">
+		<classes>
+			<class name="testCases.ViewChecking" />
+		</classes>
+	</test>-->
+</suite>
