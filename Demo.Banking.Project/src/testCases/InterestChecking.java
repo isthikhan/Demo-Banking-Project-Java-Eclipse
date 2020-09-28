@@ -21,6 +21,6 @@ public class InterestChecking extends Commonfunctions {
 		Creating_Checking_Objects.name.sendKeys("Interest1 one");
 		Creating_Checking_Objects.openingBalance.sendKeys("55");
 		Creating_Checking_Objects.newchekingsubmit.submit();
-
+		Creating_Checking_Objects.text1.isDisplayed();
 	}
 }

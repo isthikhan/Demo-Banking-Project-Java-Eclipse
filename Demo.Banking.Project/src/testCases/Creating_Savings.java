@@ -23,6 +23,6 @@ public class Creating_Savings extends Commonfunctions {
 		Creating_Saving_Object.savingsname.sendKeys("Savingsone");
 		Creating_Saving_Object.savopeningbalance.sendKeys("100");
 		Creating_Saving_Object.savingssubmit.submit();
-
+		Creating_Saving_Object.text.isDisplayed();
 	}
 }

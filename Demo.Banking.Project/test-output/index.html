@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Banking_View">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +109,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Banking_View" title="testCases.TransactionDeposit" hash-for-method="deposittransactions">deposittransactions</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Banking_View" title="testCases.TransactionsWithdraw" hash-for-method="withdrawtransactions">withdrawtransactions</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Banking_View" title="testCases.standaradChecking" hash-for-method="StandardCheckingCreation">StandardCheckingCreation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Banking_View -->
@@ -147,29 +142,14 @@
           <div class="suite-Banking_View-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TransactionDeposit</span>
+              <span class="class-name">testCases.standaradChecking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deposittransactions">
-                  </a> <!-- deposittransactions -->
-                  <span class="method-name">deposittransactions</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Banking_View-class-passed -->
-          <div class="suite-Banking_View-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TransactionsWithdraw</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="withdrawtransactions">
-                  </a> <!-- withdrawtransactions -->
-                  <span class="method-name">withdrawtransactions</span>
+                  <a name="StandardCheckingCreation">
+                  </a> <!-- StandardCheckingCreation -->
+                  <span class="method-name">StandardCheckingCreation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,14 +171,9 @@
   &lt;/test&gt; &lt;!-- Login --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ViewChecking&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TransactionDeposit&quot;/&gt;
+      &lt;class name=&quot;testCases.standaradChecking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ViewChecking --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Creation of StandaradChecking&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TransactionsWithdraw&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Creation of StandaradChecking --&gt;
 &lt;/suite&gt; &lt;!-- Banking-View --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,9 +189,6 @@
               </li>
               <li>
                 <span class="test-name">ViewChecking (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Creation of StandaradChecking (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,24 +214,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deposittransactions')
-data.setCell(0, 2, 'testCases.TransactionDeposit')
-data.setCell(0, 3, 15821);
+data.setCell(0, 1, 'Loginpage')
+data.setCell(0, 2, 'testCases.loginpage')
+data.setCell(0, 3, 70329);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Loginpage')
-data.setCell(1, 2, 'testCases.loginpage')
-data.setCell(1, 3, 9061);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'withdrawtransactions')
-data.setCell(2, 2, 'testCases.TransactionsWithdraw')
-data.setCell(2, 3, 7168);
+data.setCell(1, 1, 'StandardCheckingCreation')
+data.setCell(1, 2, 'testCases.standaradChecking')
+data.setCell(1, 3, 62602);
 window.suiteTableData['Banking_View']= { tableData: data, tableDiv: 'times-div-Banking_View'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Banking_View">
               </div> <!-- times-div-Banking_View -->
             </div> <!-- times-div -->
@@ -285,7 +253,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TransactionsWithdraw</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.standaradChecking</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">launchbrowser</span>
                 <span class="method-start">0 ms</span>
@@ -295,25 +263,18 @@ return data;
               <div class="chronological-class-name">testCases.loginpage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Loginpage</span>
-                <span class="method-start">27983 ms</span>
+                <span class="method-start">23539 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TransactionDeposit</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.standaradChecking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deposittransactions</span>
-                <span class="method-start">37264 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TransactionsWithdraw</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">withdrawtransactions</span>
-                <span class="method-start">53223 ms</span>
+                <span class="method-name">StandardCheckingCreation</span>
+                <span class="method-start">93916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">60461 ms</span>
+                <span class="method-start">156536 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

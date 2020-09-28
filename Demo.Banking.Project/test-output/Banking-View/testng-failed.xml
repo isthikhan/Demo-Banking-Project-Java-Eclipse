@@ -3,24 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Banking-View]">
   <test thread-count="5" name="ViewChecking(failed)">
     <classes>
-      <class name="testCases.TransactionDeposit">
+      <class name="testCases.standaradChecking">
         <methods>
           <include name="launchbrowser"/>
           <include name="teardown"/>
-          <include name="deposittransactions"/>
+          <include name="StandardCheckingCreation"/>
         </methods>
-      </class> <!-- testCases.TransactionDeposit -->
+      </class> <!-- testCases.standaradChecking -->
     </classes>
   </test> <!-- ViewChecking(failed) -->
-  <test thread-count="5" name="Creation of StandaradChecking(failed)">
-    <classes>
-      <class name="testCases.TransactionsWithdraw">
-        <methods>
-          <include name="launchbrowser"/>
-          <include name="withdrawtransactions"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TransactionsWithdraw -->
-    </classes>
-  </test> <!-- Creation of StandaradChecking(failed) -->
 </suite> <!-- Failed suite [Banking-View] -->

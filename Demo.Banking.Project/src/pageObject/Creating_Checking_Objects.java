@@ -32,8 +32,10 @@ public class Creating_Checking_Objects {
 	@FindBy(id="notification")
 	public static WebElement Notification;
 	
-	@FindBy(xpath="//input[@name='name']")
-	public static WebElement nameverify;
-	
+	@FindBy(xpath="//*[text()='stdone2']")
+	public static WebElement text;
+
+	@FindBy(xpath="//*[text()='stdone2']")
+	public static WebElement text1;
 
 }

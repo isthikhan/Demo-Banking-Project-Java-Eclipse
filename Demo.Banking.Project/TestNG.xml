@@ -8,13 +8,9 @@
 	</test>
 	<test name="ViewChecking">
 		<classes>
-			<class name="testCases.TransactionDeposit" />
+			<class name="testCases.standaradChecking" />
 		</classes>
 	</test>
-	<test name="Creation of StandaradChecking">
-		<classes>
-			<class name="testCases.TransactionsWithdraw" />
-		</classes>
-	</test>
+	
 	
 </suite>
