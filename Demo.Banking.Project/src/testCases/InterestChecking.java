@@ -9,7 +9,7 @@ import pageObject.Creating_Checking_Objects;
 
 public class InterestChecking extends Commonfunctions {
 	@Test
-	public void StandardCheckingCreation() {
+	public void CreateInterestCheckingCreation() {
 
 		PageFactory.initElements(driver, Checking_Page_Objects.class);
 		Checking_Page_Objects.checking.click();

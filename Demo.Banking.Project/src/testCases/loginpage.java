@@ -9,7 +9,7 @@ import pageObject.Login_Object;
 public class loginpage extends Commonfunctions {
 
 	@Test
-public void verifyviewchecking () {
+public void Loginpage () {
 		
 		PageFactory.initElements(driver,Login_Object.class);
 		Login_Object.UserName.sendKeys(properties.getProperty("username"));
