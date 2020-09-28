@@ -32,10 +32,10 @@ public class Creating_Checking_Objects {
 	@FindBy(id="notification")
 	public static WebElement Notification;
 	
-	@FindBy(xpath="//*[text()='stdone2']")
+	@FindBy(xpath="//*[text()='stdone22']")
 	public static WebElement text;
 
-	@FindBy(xpath="//*[text()='stdone2']")
+	@FindBy(xpath="//*[text()='Interest11one']")
 	public static WebElement text1;
 
 }

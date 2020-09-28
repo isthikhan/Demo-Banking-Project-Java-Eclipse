@@ -20,6 +20,6 @@ public class Creating_Saving_Object {
 	public static WebElement savopeningbalance;
 	@FindBy(id="newSavingsSubmit")
 	public static WebElement savingssubmit;
-	@FindBy(xpath="//*[text()='stdone2']")
+	@FindBy(xpath="//*[text()='SavingsOne']")
 	public static WebElement text;
 }

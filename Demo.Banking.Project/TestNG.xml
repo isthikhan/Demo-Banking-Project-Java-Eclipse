@@ -8,9 +8,37 @@
 	</test>
 	<test name="ViewChecking">
 		<classes>
+			<class name="testCases.ViewChecking" />
+		</classes>
+	</test>
+	<test name="Creation of StandaradChecking">
+		<classes>
 			<class name="testCases.standaradChecking" />
 		</classes>
 	</test>
-	
-	
+	<test name="Creation of InterestChecking">
+		<classes>
+			<class name="testCases.InterestChecking" />
+		</classes>
+	</test>
+	<test name="ViewSaving">
+		<classes>
+			<class name="testCases.ViewSavings" /> 
+		</classes>
+	</test>
+<test name="Creation of Savings">
+		<classes>
+			<class name="testCases.Creating_Savings" />
+		</classes>
+	</test>
+	<test name="Transaction Deposit">
+		<classes>
+			<class name="testCases.TransactionDeposit" />
+		</classes>
+	</test>
+	<test name="Transaction Withdraw">
+		<classes>
+			<class name="testCases.TransactionsWithdraw" />
+		</classes>
+	</test>
 </suite>

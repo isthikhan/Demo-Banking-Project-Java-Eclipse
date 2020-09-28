@@ -21,7 +21,7 @@ public class standaradChecking extends Commonfunctions {
 		Creating_Checking_Objects.Newchecking.click();
 		Creating_Checking_Objects.standardchecking.click();
 		Creating_Checking_Objects.Individual.click();
-		Creating_Checking_Objects.name.sendKeys("stdone2");
+		Creating_Checking_Objects.name.sendKeys("stdone22");
 		Creating_Checking_Objects.openingBalance.sendKeys("100");
 		Creating_Checking_Objects.newchekingsubmit.submit();
 		Creating_Checking_Objects.text.isDisplayed();

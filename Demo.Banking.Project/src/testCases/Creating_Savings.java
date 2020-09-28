@@ -20,7 +20,7 @@ public class Creating_Savings extends Commonfunctions {
 		Creating_Saving_Object.newsavings.click();
 		Creating_Saving_Object.SavAcctype.click();
 		Creating_Saving_Object.SavAccIndi.click();
-		Creating_Saving_Object.savingsname.sendKeys("Savingsone");
+		Creating_Saving_Object.savingsname.sendKeys("SavingsOne");
 		Creating_Saving_Object.savopeningbalance.sendKeys("100");
 		Creating_Saving_Object.savingssubmit.submit();
 		Creating_Saving_Object.text.isDisplayed();
