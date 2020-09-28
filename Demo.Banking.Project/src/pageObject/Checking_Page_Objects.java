@@ -13,6 +13,7 @@ public class Checking_Page_Objects {
 	public static WebElement Viewchecking;
 
 	
-	@FindBy(xpath="//*[text()='standardones']")
+	@FindBy(xpath="//*[text()='Account Number: 486130140']")
 	public static WebElement text;
 }
+ 	

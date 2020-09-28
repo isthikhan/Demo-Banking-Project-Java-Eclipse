@@ -28,5 +28,12 @@ public class Creating_Checking_Objects {
 
 	@FindBy(xpath = "//*[@id=\"right-panel\"]/div[2]/div/div/div/div/form/div[2]/button[1]")
 	public static WebElement newchekingsubmit;
+	
+	@FindBy(id="notification")
+	public static WebElement Notification;
+	
+	@FindBy(xpath="//input[@name='name']")
+	public static WebElement nameverify;
+	
 
 }

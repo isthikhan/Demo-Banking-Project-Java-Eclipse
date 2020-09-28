@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Banking login]">
-  <test thread-count="5" name="Login(failed)">
+  <test thread-count="5" name="ViewSaving(failed)">
     <classes>
-      <class name="testCases.ViewChecking">
+      <class name="testCases.ViewSavings">
         <methods>
           <include name="launchbrowser"/>
-          <include name="viewchecking"/>
+          <include name="viewsavings"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.ViewChecking -->
+      </class> <!-- testCases.ViewSavings -->
     </classes>
-  </test> <!-- Login(failed) -->
+  </test> <!-- ViewSaving(failed) -->
 </suite> <!-- Failed suite [Banking login] -->

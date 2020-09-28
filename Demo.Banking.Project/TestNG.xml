@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Banking login">
-	<test name="Login">
+<suite name="Banking-View">
+<test name="Login">
 		<classes>
-			<class name="testCases.ViewChecking" />
-		</classes>
-	</test>
-<!--	<test name="Creation of InterestChecking">
-		<classes>
-			<class name="testCases.InterestChecking" /> 
-		</classes>
-	</test>
-	<test name="Creation of StandaradChecking">
-		<classes>
-			<class name="testCases.StandaradChecking" />
+			<class name="testCases.loginpage" />
 		</classes>
 	</test>
 	<test name="ViewChecking">
 		<classes>
 			<class name="testCases.ViewChecking" />
 		</classes>
-	</test>-->
+	</test>
+	<test name="Creation of StandaradChecking">
+		<classes>
+			<class name="testCases.standaradChecking" />
+		</classes>
+	</test>
+	<test name="Creation of InterestChecking">
+		<classes>
+			<class name="testCases.InterestChecking" />
+		</classes>
+	</test>
+	<test name="ViewSaving">
+		<classes>
+			<class name="testCases.ViewSavings" /> 
+		</classes>
+	</test>
+<test name="Creation of Savings">
+		<classes>
+			<class name="testCases.Creating_Savings" />
+		</classes>
+	</test>
 </suite>

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.ViewChecking">
+      <class name="testCases.standaradChecking">
         <methods>
-          <include name="verifyviewchecking"/>
-          <include name="launchbrowser"/>
-          <include name="teardown"/>
+          <include name="StandardCheckingCreation"/>
         </methods>
-      </class> <!-- testCases.ViewChecking -->
+      </class> <!-- testCases.standaradChecking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
