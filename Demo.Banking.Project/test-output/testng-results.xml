@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Banking-View" duration-ms="245075" started-at="2020-09-28T22:35:42 IST" finished-at="2020-09-28T22:39:47 IST">
+  <suite name="Banking-View" duration-ms="582227" started-at="2020-10-07T20:49:50 IST" finished-at="2020-10-07T20:59:32 IST">
     <groups>
     </groups>
-    <test name="Login" duration-ms="78210" started-at="2020-09-28T22:35:42 IST" finished-at="2020-09-28T22:37:00 IST">
+    <test name="Login" duration-ms="43038" started-at="2020-10-07T20:49:50 IST" finished-at="2020-10-07T20:50:33 IST">
       <class name="testCases.loginpage">
-        <test-method status="PASS" signature="Loginpage()[pri:0, instance:testCases.loginpage@23e028a9]" name="Loginpage" duration-ms="78155" started-at="2020-09-28T22:35:42 IST" finished-at="2020-09-28T22:37:00 IST">
+        <test-method status="PASS" signature="Loginpage()[pri:0, instance:testCases.loginpage@23e028a9]" name="Loginpage" duration-ms="42974" started-at="2020-10-07T20:49:50 IST" finished-at="2020-10-07T20:50:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginpage -->
       </class> <!-- testCases.loginpage -->
     </test> <!-- Login -->
-    <test name="ViewChecking" duration-ms="12708" started-at="2020-09-28T22:37:00 IST" finished-at="2020-09-28T22:37:13 IST">
+    <test name="ViewChecking" duration-ms="116414" started-at="2020-10-07T20:50:33 IST" finished-at="2020-10-07T20:52:29 IST">
       <class name="testCases.ViewChecking">
-        <test-method status="PASS" signature="viewchecking()[pri:0, instance:testCases.ViewChecking@5d76b067]" name="viewchecking" duration-ms="12704" started-at="2020-09-28T22:37:00 IST" finished-at="2020-09-28T22:37:13 IST">
+        <test-method status="PASS" signature="viewchecking()[pri:0, instance:testCases.ViewChecking@5d76b067]" name="viewchecking" duration-ms="116409" started-at="2020-10-07T20:50:33 IST" finished-at="2020-10-07T20:52:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewchecking -->
       </class> <!-- testCases.ViewChecking -->
     </test> <!-- ViewChecking -->
-    <test name="Creation of StandaradChecking" duration-ms="9454" started-at="2020-09-28T22:37:13 IST" finished-at="2020-09-28T22:37:22 IST">
+    <test name="Creation of StandaradChecking" duration-ms="132264" started-at="2020-10-07T20:52:29 IST" finished-at="2020-10-07T20:54:42 IST">
       <class name="testCases.standaradChecking">
-        <test-method status="PASS" signature="StandardCheckingCreation()[pri:0, instance:testCases.standaradChecking@1c3a4799]" name="StandardCheckingCreation" duration-ms="9449" started-at="2020-09-28T22:37:13 IST" finished-at="2020-09-28T22:37:22 IST">
+        <test-method status="PASS" signature="StandardCheckingCreation()[pri:0, instance:testCases.standaradChecking@1c3a4799]" name="StandardCheckingCreation" duration-ms="132258" started-at="2020-10-07T20:52:29 IST" finished-at="2020-10-07T20:54:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StandardCheckingCreation -->
       </class> <!-- testCases.standaradChecking -->
     </test> <!-- Creation of StandaradChecking -->
-    <test name="Creation of InterestChecking" duration-ms="12229" started-at="2020-09-28T22:37:22 IST" finished-at="2020-09-28T22:37:34 IST">
+    <test name="Creation of InterestChecking" duration-ms="22377" started-at="2020-10-07T20:54:42 IST" finished-at="2020-10-07T20:55:04 IST">
       <class name="testCases.InterestChecking">
-        <test-method status="PASS" signature="CreateInterestCheckingCreation()[pri:0, instance:testCases.InterestChecking@d44fc21]" name="CreateInterestCheckingCreation" duration-ms="12223" started-at="2020-09-28T22:37:22 IST" finished-at="2020-09-28T22:37:34 IST">
+        <test-method status="PASS" signature="CreateInterestCheckingCreation()[pri:0, instance:testCases.InterestChecking@d44fc21]" name="CreateInterestCheckingCreation" duration-ms="22373" started-at="2020-10-07T20:54:42 IST" finished-at="2020-10-07T20:55:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateInterestCheckingCreation -->
       </class> <!-- testCases.InterestChecking -->
     </test> <!-- Creation of InterestChecking -->
-    <test name="ViewSaving" duration-ms="13035" started-at="2020-09-28T22:37:34 IST" finished-at="2020-09-28T22:37:47 IST">
+    <test name="ViewSaving" duration-ms="38407" started-at="2020-10-07T20:55:04 IST" finished-at="2020-10-07T20:55:43 IST">
       <class name="testCases.ViewSavings">
-        <test-method status="PASS" signature="viewsavings()[pri:0, instance:testCases.ViewSavings@184f6be2]" name="viewsavings" duration-ms="13031" started-at="2020-09-28T22:37:34 IST" finished-at="2020-09-28T22:37:47 IST">
+        <test-method status="PASS" signature="viewsavings()[pri:0, instance:testCases.ViewSavings@184f6be2]" name="viewsavings" duration-ms="38403" started-at="2020-10-07T20:55:04 IST" finished-at="2020-10-07T20:55:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewsavings -->
       </class> <!-- testCases.ViewSavings -->
     </test> <!-- ViewSaving -->
-    <test name="Creation of Savings" duration-ms="13779" started-at="2020-09-28T22:37:47 IST" finished-at="2020-09-28T22:38:01 IST">
+    <test name="Creation of Savings" duration-ms="105472" started-at="2020-10-07T20:55:43 IST" finished-at="2020-10-07T20:57:28 IST">
       <class name="testCases.Creating_Savings">
-        <test-method status="PASS" signature="Creatingsavings()[pri:0, instance:testCases.Creating_Savings@5f282abb]" name="Creatingsavings" duration-ms="13776" started-at="2020-09-28T22:37:47 IST" finished-at="2020-09-28T22:38:01 IST">
+        <test-method status="PASS" signature="Creatingsavings()[pri:0, instance:testCases.Creating_Savings@5f282abb]" name="Creatingsavings" duration-ms="105463" started-at="2020-10-07T20:55:43 IST" finished-at="2020-10-07T20:57:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creatingsavings -->
       </class> <!-- testCases.Creating_Savings -->
     </test> <!-- Creation of Savings -->
-    <test name="Transaction Deposit" duration-ms="82207" started-at="2020-09-28T22:38:01 IST" finished-at="2020-09-28T22:39:23 IST">
+    <test name="Transaction Deposit" duration-ms="59893" started-at="2020-10-07T20:57:28 IST" finished-at="2020-10-07T20:58:28 IST">
       <class name="testCases.TransactionDeposit">
-        <test-method status="PASS" signature="deposittransactions()[pri:0, instance:testCases.TransactionDeposit@15d0c81b]" name="deposittransactions" duration-ms="82202" started-at="2020-09-28T22:38:01 IST" finished-at="2020-09-28T22:39:23 IST">
+        <test-method status="PASS" signature="deposittransactions()[pri:0, instance:testCases.TransactionDeposit@15d0c81b]" name="deposittransactions" duration-ms="59889" started-at="2020-10-07T20:57:28 IST" finished-at="2020-10-07T20:58:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deposittransactions -->
       </class> <!-- testCases.TransactionDeposit -->
     </test> <!-- Transaction Deposit -->
-    <test name="Transaction Withdraw" duration-ms="23340" started-at="2020-09-28T22:39:23 IST" finished-at="2020-09-28T22:39:47 IST">
+    <test name="Transaction Withdraw" duration-ms="63892" started-at="2020-10-07T20:58:28 IST" finished-at="2020-10-07T20:59:32 IST">
       <class name="testCases.TransactionsWithdraw">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="launchbrowser" is-config="true" duration-ms="42396" started-at="2020-09-28T22:34:59 IST" finished-at="2020-09-28T22:35:42 IST">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="launchbrowser" is-config="true" duration-ms="45908" started-at="2020-10-07T20:49:04 IST" finished-at="2020-10-07T20:49:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="withdrawtransactions()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="withdrawtransactions" duration-ms="23335" started-at="2020-09-28T22:39:23 IST" finished-at="2020-09-28T22:39:47 IST">
+        <test-method status="PASS" signature="withdrawtransactions()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="withdrawtransactions" duration-ms="63888" started-at="2020-10-07T20:58:28 IST" finished-at="2020-10-07T20:59:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawtransactions -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="teardown" is-config="true" duration-ms="0" started-at="2020-09-28T22:39:47 IST" finished-at="2020-09-28T22:39:47 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TransactionsWithdraw@1b68ddbd]" name="teardown" is-config="true" duration-ms="2523" started-at="2020-10-07T20:59:32 IST" finished-at="2020-10-07T20:59:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
